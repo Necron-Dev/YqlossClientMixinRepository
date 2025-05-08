@@ -1,7 +1,7 @@
 {
   "textures": {
     "cape": {
-      "path": "/../cape.png",
+      "path": "../cape.png",
       "xCount": 1,
       "yCount": 1,
       "x": 0,
