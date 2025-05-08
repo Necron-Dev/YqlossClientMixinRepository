@@ -1,23 +1,18 @@
 {
   "textures": {
     "cape": {
-      "path": "../cape.png",
-      "xCount": 1,
-      "yCount": 1,
-      "x": 0,
-      "y": 0
+      "path": "../cape.png"
     }
   },
   "graph": {
     "begin": {
       "next": {
-        "cape": {
-          "weight": 1
-        }
+        "cape": {}
       }
     },
     "cape": {
-      "duration": -1,
+      "durationMin": -2,
+      "durationMax": -1,
       "texture": "cape"
     }
   }
