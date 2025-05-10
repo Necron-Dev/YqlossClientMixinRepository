@@ -1,0 +1,28 @@
+{
+  "textures": {
+    "1": {
+      "path": "../cape1.png"
+    },
+    "2": {
+      "path": "../cape2.png"
+    }
+  },
+  "graph": {
+    "begin": {
+      "next": {
+        "1": {},
+        "2": {}
+      }
+    },
+    "1": {
+      "durationMin": -1,
+      "durationMax": -1,
+      "texture": "1"
+    },
+    "2": {
+      "durationMin": -1,
+      "durationMax": -1,
+      "texture": "2"
+    }
+  }
+}
