@@ -1,0 +1,19 @@
+{
+  "textures": {
+    "cape": {
+      "path": "../cape.png"
+    }
+  },
+  "graph": {
+    "begin": {
+      "next": {
+        "cape": {}
+      }
+    },
+    "cape": {
+      "durationMin": -2,
+      "durationMax": -1,
+      "texture": "cape"
+    }
+  }
+}
