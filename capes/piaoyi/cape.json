@@ -1,47 +1,19 @@
 {
   "textures": {
-    "cape": {
-      "path": "../cape.png"
-    },
     "newcape1": {
       "path": "../newcape1.png"
-    },
-    "newcape2": {
-      "path": "../newcape2.png"
     }
   },
   "graph": {
     "begin": {
       "next": {
-        "cape": {}
-      }
-    },
-    "cape": {
-      "durationMin": 90,
-      "durationMax": 150,
-      "texture": "cape",
-      "next": {
-        "newcape1": {},
-        "newcape2": {}
+        "newcape1": {}
       }
     },
     "newcape1": {
-      "durationMin": 90,
-      "durationMax": 150,
-      "texture": "newcape1",
-      "next": {
-        "cape": {},
-        "newcape2": {}
-      }
-    },
-    "newcape2": {
-      "durationMin": 90,
-      "durationMax": 150,
-      "texture": "newcape2",
-      "next": {
-        "newcape1": {},
-        "cape": {}
-      }
+      "durationMin": -2,
+      "durationMax": -1,
+      "texture": "newcape1"
     }
   }
 }
