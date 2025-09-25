@@ -1,19 +1,19 @@
 {
   "textures": {
-    "newcape1": {
-      "path": "../newcape1.png"
+    "newcape3": {
+      "path": "../newcape3.png"
     }
   },
   "graph": {
     "begin": {
       "next": {
-        "newcape1": {}
+        "newcape3": {}
       }
     },
-    "newcape1": {
+    "newcape3": {
       "durationMin": -2,
       "durationMax": -1,
-      "texture": "newcape1"
+      "texture": "newcape3"
     }
   }
 }
